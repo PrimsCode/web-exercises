@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+</head>
+<body>
+    <h3>Part 2: Practice Tools</h3>
+    <!-- curl https://icanhazdadjoke.com/search?term=pirate -->
+    <p>Get all pirate jokes! </p>
+    <button onclick="window.open('https://icanhazdadjoke.com/search?term=pirate')">Search!</button>
+
+    <h3>Part 3: Explore Dev Tools</h3>
+
+    <form action="/search" method="GET">
+        Search for <input name="q">
+        <button type="submit">Search!</button>
+      </form>
+
+    <form action="add-comment" method="POST">
+        <input name="comment">
+        <button type="submit">Add</button>
+    </form>
+    
+</body>
+</html>
